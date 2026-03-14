@@ -43,9 +43,14 @@ unzip -o ./data/annotations_trainval2017.zip -d data
 ### 1. Run
 
 ```bash
-python3 ./src/extract_structure.py ./data/annotations/instances_train2017.json
+# Analize
+python3 ./src/extract_structure.py \
+./data/annotations/instances_train2017.json \
 
-python3 ./src/extract_one_example.py ./data/annotations/instances_train2017.json -o ./data/annotations/instances_train2017_extracted.json
+# Extract
+python3 ./src/extract_one_example.py \
+./data/annotations/instances_train2017.json \
+-o ./data/annotations/instances_train2017_extracted.json
 ```
 
 ### 2. Test
