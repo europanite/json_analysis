@@ -8,7 +8,7 @@
 [![Pytest](https://github.com/europanite/json_analysis/actions/workflows/pytest.yml/badge.svg)](https://github.com/europanite/json_analysis/actions/workflows/pytest.yml)
 [![pages](https://github.com/europanite/json_analysis/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/europanite/json_analysis/actions/workflows/pages/pages-build-deployment)
 
-A Json Analysis Tool
+A Json Analysis Tool.
 
 ## Requirements
 
