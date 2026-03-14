@@ -4,8 +4,9 @@
 ![OS](https://img.shields.io/badge/OS-Linux%20%7C%20macOS%20%7C%20Windows-blue)
 
 [![Python Lint](https://github.com/europanite/json_analysis/actions/workflows/lint.yml/badge.svg)](https://github.com/europanite/json_analysis/actions/workflows/lint.yml)
-[![pages-build-deployment](https://github.com/europanite/json_analysis/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/europanite/json_analysis/actions/workflows/pages/pages-build-deployment)
 [![CodeQL Advanced](https://github.com/europanite/json_analysis/actions/workflows/codeql.yml/badge.svg)](https://github.com/europanite/json_analysis/actions/workflows/codeql.yml)
+[![Pytest](https://github.com/europanite/json_analysis/actions/workflows/pytest.yml/badge.svg)](https://github.com/europanite/json_analysis/actions/workflows/pytest.yml)
+[![pages](https://github.com/europanite/json_analysis/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/europanite/json_analysis/actions/workflows/pages/pages-build-deployment)
 
 A Json Analysis Tool
 
