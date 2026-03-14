@@ -44,7 +44,7 @@ unzip -o ./data/annotations_trainval2017.zip -d data
 
 ```bash
 # Analize
-python3 ./src/extract_structure.py \
+python3 ./src/analyze_structure.py \
 ./data/annotations/instances_train2017.json \
 
 # Extract
