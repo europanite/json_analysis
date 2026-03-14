@@ -27,7 +27,6 @@ from pathlib import Path
 
 import ijson
 
-
 PRIMITIVE_EVENTS = {"string", "number", "boolean", "null"}
 CONTAINER_START_EVENTS = {"start_map", "start_array"}
 CONTAINER_END_EVENTS = {"end_map", "end_array"}

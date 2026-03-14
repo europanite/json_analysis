@@ -19,7 +19,6 @@ import json
 import sys
 from pathlib import Path
 
-
 PRIMITIVE_EVENTS = {"string", "number", "boolean", "null"}
 
 
