@@ -1,0 +1,16 @@
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+exclude = [
+  ".git",
+  ".venv",
+  "venv",
+  "env",
+  "__pycache__",
+  "build",
+  "dist"
+]
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]
+ignore = []
