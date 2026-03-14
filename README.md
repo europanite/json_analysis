@@ -8,3 +8,60 @@
 [![CodeQL Advanced](https://github.com/europanite/json_analysis/actions/workflows/codeql.yml/badge.svg)](https://github.com/europanite/json_analysis/actions/workflows/codeql.yml)
 
 A Json Analysis Tool
+
+## Requirements
+
+- Python 3.9+
+- Dependencies:
+    - python3-venv
+    - ijson
+
+
+
+## Usage
+
+Run the script with default settings:
+Example with custom arguments:
+
+
+### 0. Create virtual environment
+
+```bash
+# create a virtual environment
+python3 -m venv env
+source env/bin/activate
+pip install -r requirements.txt
+```
+
+### 0. Preparation
+```bash
+# Sample Jons Data Download 
+wget -P data -c http://images.cocodataset.org/annotations/annotations_trainval2017.zip
+unzip -o ./data/annotations_trainval2017.zip -d data
+```
+
+### 1. Run
+
+```bash
+python3 ./src/extract_structure.py ./data/annotations/instances_train2017.json
+
+python3 ./src/extract_one_example.py ./data/annotations/instances_train2017.json -o ./data/annotations/instances_train2017_extracted.json
+```
+
+### 2. Test
+
+```bash
+pip install -r requirements.test.txt
+pytest
+```
+
+### 3. Deactivate environment
+
+```bash
+deactivate
+```
+
+---
+
+# License
+- Apache License 2.0
